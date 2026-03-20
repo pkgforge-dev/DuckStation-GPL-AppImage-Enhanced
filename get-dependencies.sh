@@ -7,7 +7,7 @@ ARCH=$(uname -m)
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
-    kvantum \
+    kvantum       \
     lxqt-qtplugin \
     qt6ct
 
