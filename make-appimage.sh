@@ -8,13 +8,11 @@ export ARCH VERSION
 export OUTPATH=./dist
 export ADD_HOOKS="self-updater.bg.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
-export STARTUPWMCLASS=
-export DESKTOP=/usr/share/applications/duckstation.desktop
 export DEPLOY_QT=1
 export DEPOY_VULKAN=1
 
 # Deploy dependencies
-quick-sharun /usr/bin/duckstation /opt/duckstation/duckstation-qt
+quick-sharun /usr/bin/duckstation-qt
 
 # Additional changes can be done in between here
 
