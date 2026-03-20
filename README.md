@@ -7,7 +7,7 @@
 [![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/DuckStation-GPL-AppImage-Enhanced)](https://github.com/pkgforge-dev/DuckStation-GPL-AppImage-Enhanced/releases/latest)
 
 <p align="center">
-  <img src="https://github.com/pkgforge-dev.png" width="128" />
+  <img src="https://aur.archlinux.org/cgit/aur.git/plain/mallard.png?h=duckstation" width="128" />
 </p>
 
 
