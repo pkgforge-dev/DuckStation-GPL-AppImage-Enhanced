@@ -12,7 +12,7 @@ export DEPLOY_QT=1
 export DEPOY_VULKAN=1
 
 # Deploy dependencies
-quick-sharun /usr/bin/duckstation-qt
+quick-sharun ./AppDir/bin/duckstation-qt
 
 # Additional changes can be done in between here
 
